@@ -20,9 +20,7 @@ int main()
 				//cout << j << " is a divisor of " << i << endl;
 				check+=2;
 				if (j*j == num) //check for square roots, subtract 1 because "double" solution
-				{
 					check--;
-				}
 			}
 		}
 		check-=1; //Subtract 1 to account for extra "check" in the 'j loop'.
