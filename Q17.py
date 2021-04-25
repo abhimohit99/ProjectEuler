@@ -55,5 +55,4 @@ sum_of_lengths += sum([(99*len(item+'and') + one_to_99) for i,item in enumerate(
 # Haven't included "100", "200", etc. so doing that now
 sum_of_lengths += sum(len(item) for item in hundreds) + len('onethousand')
 
-print(sum_of_lengths
-)
+print(sum_of_lengths)
